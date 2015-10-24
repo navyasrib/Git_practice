@@ -8,7 +8,8 @@ var say_hai_world = function(){
 };
 say_hai_world();
 
-var go_to_hell = function(){
-	console.log('what the hell you are saying stop it.')
+var go_to_hell = function(name){
+	return 'what the hell '+name+' is saying stop it.';
 };
-go_to_hell();
+console.log(go_to_hell('navya'));;
+
