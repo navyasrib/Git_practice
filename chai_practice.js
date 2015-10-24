@@ -28,3 +28,8 @@ test["should in chai"]=function(){
 	hello.should.have.length(7);
 	items.should.have.property('fruits').with.length(3);
 };
+test["more methods on should"]=function(){
+	var a = 34;
+	a.should.not.equal(43);
+	a.should.not.equal(78);
+};
